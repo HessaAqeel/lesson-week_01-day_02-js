@@ -1,0 +1,34 @@
+1-
+var numOfChildren = 2;
+var partnerName = "Sara";
+var geoLocation = "Riydh";
+var jobTitle =  "Web Developer";
+
+console.log("You will be a "+ jobTitle + " in " + geoLocation + " and married to " + partnerName + " with " + numOfChildren + " kids ");
+
+2- I faced an issue with this one *
+var currentYear = 2019;
+var birthYear = 1995;
+
+var age = currentYear - birthYear;
+undefined
+console.log("they are " + age);
+
+
+3- :
+
+var myAge =  24 ;
+var maxAge = 40 ;
+var snackPerYear = 2 * 365;
+var totalSnacks =( maxAge - myAge ) * snackPerYear; 
+
+console.log("You will need " + totalSnacks + " to last you until the ripe old age of " + maxAge); 
+
+
+5 :
+
+var tempinCelsius = "20°"; 
+var tempinFahrenheit= "68 degrees Fahrenheit";
+
+console.log( tempinFahrenheit + " is " + tempinCelsius );
+
