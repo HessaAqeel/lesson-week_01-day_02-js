@@ -27,8 +27,8 @@ console.log("You will need " + totalSnacks + " to last you until the ripe old ag
 
 5 :
 
-var tempinCelsius = "20°"; 
-var tempinFahrenheit= "68 degrees Fahrenheit";
+var tempinCelsius = 20°; 
+var tempinFahrenheit= tempinCelsius * 1.8 + 32;
 
 console.log( tempinFahrenheit + " is " + tempinCelsius );
 
